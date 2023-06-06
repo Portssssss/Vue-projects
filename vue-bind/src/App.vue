@@ -6,6 +6,8 @@ import listRendering from './components/listRendering.vue';
 import EventProcessing from './components/EventProcessing.vue';
 import ArrayListAndComputed from './components/ArrayListAndComputed.vue';
 import ClassAndStyleDemo from './components/ClassAndStyleDemo.vue';
+import WatchDemo from './components/WatchDemo.vue';
+import FormBinding from './components/FormBinding.vue';
 // 可以在此引入一个页面样式，顺序是从上到下
 </script>
 
@@ -15,7 +17,9 @@ import ClassAndStyleDemo from './components/ClassAndStyleDemo.vue';
   <listRendering/> -->
   <!-- <EventProcessing/> -->
   <!-- <ArrayListAndComputed/> -->
-  <ClassAndStyleDemo/>
+  <!-- <ClassAndStyleDemo/> -->
+  <!-- <WatchDemo/> -->
+  <FormBinding/>
   <!-- 引入后需要在此注册 -->
 </template>
 
